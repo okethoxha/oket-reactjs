@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Tables ne klase.</title>
+        <style>
+            #orari{
+                background-color: lightblue;
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 15px;
+            }
+
+            td, th{
+                padding: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="orari">
+            <caption>Orari i lendeve</caption>
+            <tr>
+                <th rowspan="7">Oret</th>
+                <th>E Hene</th>
+                <th>E Marte</th>
+                <th>E Merkure</th>
+                <th>E Enjte</th>
+                <th>E Premte</th>
+            </tr>
+            <tr>
+                <td>Fizike</td>
+                <td>Ed Fizike</td>
+                <td>Kimi</td>
+                <td>Muzike</td>
+                <td>Biologji</td>
+            </tr>
+            <tr>
+                <td>Latinisht</td>
+                <td>Anglisht</td>
+                <td>Gjeografi</td>
+                <td>Gjuhe Shqipe</td>
+                <td>Gjermanisht</td>
+            </tr>
+            <tr>
+                <th colspan="5">Pushimi i gjate</th>
+            </tr>
+            <tr>
+                <td>Frengjisht</td>
+                <td>Muzike</td>
+                <td>Biologji</td>
+                <td>Matematike</td>
+                <td>Fizike</td>
+            </tr>
+            <tr>
+                <td>Biologji</td>
+                <td>Informatike</td>
+                <td>Matematike</td>
+                <td>Fizike</td>
+                <td>Anglisht</td>
+            </tr>
+            <tr>
+                <td>Anglisht</td>
+                <td>Latinisht</td>
+                <td>Gjermanisht</td>
+                <td>Frengjisht</td>
+                <td>Gjuhe Shqipe</td>
+            </tr>
+        </table>        
+    </body>
+</html>
